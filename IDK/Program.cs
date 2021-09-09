@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Data;
+using System;
 
 namespace IDK
 {
@@ -40,9 +41,11 @@ namespace IDK
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine();
-                Typewrite("ERROR!!");
+                Typewrite("ERROR!! ");
+                
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Typewrite("Välj en siffra mellan [1 - 9]");
+                Console.WriteLine();
                 Console.ForegroundColor = ConsoleColor.Yellow;
             }
 
